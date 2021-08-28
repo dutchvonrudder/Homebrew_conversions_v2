@@ -1,0 +1,194 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "FTG",
+                "abbreviation": "FTG",
+                "full": "DMDave Patreon - Ghost",
+                "authors": [
+                    "DMDave"
+                ],
+                "convertedBy": [
+                    "Dutchvonrudder"
+                ],
+                "version": "1.0.1",
+                "color": "131313",
+                "url": "https://github.com/dutchvonrudder/conversions/blob/main/Ghost.json"
+            }
+        ],
+        "dateAdded": 1629933172,
+        "dateLastModified": 1629933172
+    },
+    "subclass": [
+		{
+			"name": "Ghost Fighter",
+			"shortName": "Ghost",
+			"source": "FTG",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"Ghost|Fighter||Ghost|FTG|3",
+				"We do not know fear...|Fighter||Ghost|FTG|7",
+				"For we are fear...|Fighter||Ghost|FTG|10",
+				"And we are death.|Fighter||Ghost|FTG|15",
+				"We are ghosts.|Fighter||Ghost|FTG|18"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Ghost",
+			"source": "FTG",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassSource": "FTG",
+			"subclassShortName": "Ghost",
+			"level": 3,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Features|Fighter||Ghost|FTG|3"
+					
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "We are the unseen...|Fighter||Ghost|FTG|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "We are the knife in the dark...|Fighter||Ghost|FTG|3"
+				}
+			]
+		},
+		{	"name": "Features",
+			"source": "FTG",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassSource": "FTG",
+			"subclassShortName": "Ghost",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level fighter feature  - Martial Archetype}",
+				"We are the unseen, read the pamphlets and graffiti left behind by the fighters who embody this mysterious, cult-like martial archetype. And there is a lot of truth to that claim. Blending the techniques and stealth of assassins and rogues, Ghost fighters move through the Stretch as careful predators. When finally pitted against a foe, they cut through enemy ranks like a bullet through paper.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Fighter Level",
+						"Features"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-6"
+					],
+					"rows": [
+						[
+							"3rd",
+							"We are the unseen...;We are the knife in the dark..."
+						],
+						[
+							"7th",
+							"We do not know fear..."
+						],
+						[
+							"10th",
+							"For we are fear..."
+						],
+						[
+							"15th",
+							"And we are death."
+						],
+						[
+							"18th",
+							"We are ghosts."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "We are the unseen...",
+			"source": "FTG",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassSource": "FTG",
+			"subclassShortName": "Ghost",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level fighter feature}",
+				"Starting at 3rd level when you take the Ghost archetype, you gain proficiency in the Stealth skill and your proficiency bonus is doubled for any ability check you make that uses Stealth."
+			]
+		},
+		{
+			"name": "We are the knife in the dark...",
+			"source": "FTG",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassSource": "FTG",
+			"subclassShortName": "Ghost",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Fighter feature}",
+				"Also at 3rd level, you are an expert at taking advantage of your opponent while their guard is down. Once per turn, you can add your proficiency bonus to your damage roll on one attack if you have advantage on the attack roll. You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll."
+			]
+		},
+		{
+			"name": "We do not know fear...",
+			"source": "FTG",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassSource": "FTG",
+			"subclassShortName": "Ghost",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"{@i 7thth-level Fighter feature}",
+				"At 7th level, you've learned to anticipate dangers before they happen. You add a bonus equal to your proficiency bonus to your initiative checks. Also, you gain proficiency in Dexterity saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Wisdom saving throws (your choice)."
+			]
+		},
+		{
+			"name": "For we are fear...",
+			"source": "FTG",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassSource": "FTG",
+			"subclassShortName": "Ghost",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10th-level Fighter feature}",
+				"At 10th level, you can use your bonus action to make a Charisma (Intimidation) check contested by a target's Wisdom (Insight) check. The target must be within 30 feet of you and able to see you. If the check is successful, the target is frightened of you until it takes damage or until the end of its next turn. While the creature is frightened of you, you have advantage on attack rolls against it. If the target succeeds on the contest or the effect ends for it, it is immune to this feature for the next 24 hours. You can use this feature three times and regain all expended uses after you complete a long rest."
+			]
+		},
+		{
+			"name": "And we are death.",
+			"source": "FTG",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassSource": "FTG",
+			"subclassShortName": "Ghost",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15th-level Fighter feature}",
+				"Starting at 15th level, you can use your action to make a single melee attack against a target within reach. You have advantage on the attack roll. In addition, if the attack hits you can roll one of the weapon's damage dice one additional time."
+			]
+		},
+		{
+			"name": "We are ghosts.",
+			"source": "FTG",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassSource": "FTG",
+			"subclassShortName": "Ghost",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"{@i 18th-level Fighter feature}",
+				"At 18th level, as a bonus action or as a reaction when a creature hits you with an attack roll or harmful spell, you can become incorporeal. While incorporeal, you gain resistance to all damage except for radiant and force damage, including from the triggering attack. You can move through other creatures and objects as if they were difficult terrain, but you take 1d10 force damage if you end your turn inside an object. You remain incorporeal as long as you concentrate (as if concentrating on a spell), up to 1 minute, until you make an attack or cast a spell, or you use your bonus action to end the effect. Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		}
+	]
+}

@@ -1,0 +1,189 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Vampires",
+				"abbreviation": "Vampires",
+				"full": "Vampires (Vampire)",
+				"authors": [
+					"DMDave"
+				],
+				"convertedBy": [
+					"Dutch"
+				],
+				"version": "1.0.1",
+				"url": "https://github.com/dutchvonrudder/conversions",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1537874753,
+		"dateLastModified": 1537874753
+	},
+    "race": [
+        {
+            "name": "Vampires",
+            "source": "DMDave",
+            "page": "DMDave",
+            "ability": [
+                {
+                    "str": 1,
+                    "dex": 1,
+                    "con": 1,
+                    "cha": 1
+                }
+            ],
+            "size":  [
+                "M"
+            ],
+            "speed": 30,
+            "darkvision": 60,
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "Vampires are effectively immortal and do not age.However, your vampire character will still appear as they didwhen they were turned. Therefore, if you were young whenyou became a vampire, you will always appear young, and ifyou were old when you became a vampire, you will alwayslook old."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Claws",
+                    "entries": [
+                        "Your fingers end in razor sharp claws. These clawsgrant you a climbing speed of 20 feet. In addition, your clawsare natural weapons, which you can use to make unarmedstrikes. If you hit with them, you deal slashing damage equalto 1d4 + your Strength modifier, instead of the bludgeoningdamage normal for an unarmed strike. When you reach 5thlevel, this damage increases by 1d4 (2d4)."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bite",
+                    "entries": [
+                        "Your longer-than-normal fangs are a natural weapon,which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + yourStrength modifier, instead of the bludgeoning damage normalfor an unarmed strike"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Blood Drinker",
+                    "entries": [
+                        "As a bonus action, you can make a specialattack with your bite against a willing creature, a creaturethat is grappled by you, incapacitated, or restrained. If theattack hits, it deals its normal damage plus an additional 1d6necrotic damage. The creature's hit point maximum isreduced by an amount equal to the necrotic damage taken,and you regain hit points equal to that amount. Once you usethis trait, you can't use it again until you complete a long rest.The necrotic damage this attack deals increases by 1d6 (2d6)at 5th level."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Regeneration",
+                    "entries": [
+                        "So long as you are not in sunlight orrunning water, you can use your action to regain a number ofhit points equal to your Constitution modifier. If you takeradiant damage, you can't use this trait again until youcomplete a short or long rest"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Nautral Armor",
+                    "entries": [
+                        "While you aren't wearing armor, your ACis 12 + your Dexterity modifier. You can use your naturalarmor to determine your AC if the armor you wear wouldleave you with a lower AC. A shield's benefits apply as normalwhile you use your natural armor."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Vampire Resilience",
+                    "entries": [
+                        "You have resistance to necroticdamage as well as bludgeoning, piercing, and slashing fromnonmagical attacks."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Vampire Weaknesses",
+                    "entries": [
+                        "You have the following flaws. Chained to the Grave. Every vampire remains bound to itscoffin, crypt, or grave site. Here, the vampire must rest duringthe day. If the vampire didn't receive a formal burial, it mustlie beneath a foot of earth at the place of its transition. If youcannot rest in your coffin, crypt, or grave site, you do not gainthe benefits of a long rest (but you may still take a short restas normal). You can move your place of burial by transportingyour coffin or a significant amount of grave dirt to anotherlocation. You may create multiple resting places this way. Forbiddance. You can't enter a residence without aninvitation from one of the occupants. Harmed by Running Water. You take 20 acid damage whenyou end your turn in running water.Stake to the Heart. You are destroyed if a piercing weaponmade of wood is driven into your heart while you areincapacitated in your resting place. Sunlight Hypersensitivity. You take 20 radiant damagewhen you start your turn in sunlight. While in sunlight, youhave disadvantage on attack rolls and ability checks."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Undead Nature",
+                    "entries": [
+                        "Your creature type is undead, rather thanhumanoid. You do not need to breathe."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read, and write Common andone other langauge of your choice. Typically, these are the languages you knew in life."
+                    ]
+                }
+            ]
+        }
+    ],
+    "feat": [
+        {
+            "name": "Children of the Night",
+            "source": "DMDave",
+            "entries": [
+                "You have a supernatural connection to the creatures that lurkin the dark. You gain the following benefits: Increase your Intelligence, Wisdom, or Charisma score by1, to a maximum of 20. You can cast the conjure animals spell, provided that thesun isn't up. When you cast conjure animals using this benefit, you may only conjure up to five swarms of rats, five swarms of bats, or eightwolves. Once you use thisfeature, you can't do so again until you complete a longrest. Charisma is your spellcasting ability for this spell."
+            ],
+            "prerequisite": [
+                {
+                    "level": 5
+                }
+            ]
+
+        },
+        {
+            "name": "Improved Vampire Resilience",
+            "source": "DMDave",
+            "entries": [
+                "You are very difficult to kill. If you fail a saving throw, you canchoose to succeed instead. Once you use this feature, you can't use it again until you complete a long rest. You can take this feat up to three times, gaining anadditional use each time you do. You regain all expendeduses after completing a long rest."
+            ],
+            "prerequisite": [
+                {
+                    "level": 9
+                }
+            ]
+        },
+        {
+            "name": "Mist Form",
+            "source": "DMDave",
+            "entries": [
+                "You can transform into a mist which protects you from harm.If you aren't in sunlight or running water, you can use youraction to polymorph into a Medium cloud of mist, or backinto your true form. While in mist form, you can't take anyactions, speak, or manipulate objects. You are weightless,have a flying speed of 20 feet, can hover, and can enter ahostile creature's space and stop there. In addition, if air canpass through a space, you can do so without squeezing, andyou can't pass through water. You have advantage onStrength, Dexterity, and Constitution saving throws, and youare immune to all nonmagical damage, except the damageyou take from sunlight. When you drop to 0 hit points outside of your resting place,you instantly transform into your mist form instead of fallingunconscious, provided that you aren't in sunlight or runningwater. If you can't transform, you are destroyed. While you have 0 hit points in mist form, you can't revert toyour vampire form, and you must reach your resting placewithin 2 hours or be destroyed. Once you are in your restingplace, you revert to vampire form. You are then paralyzeduntil you regain at least 1 hit point. After spending 1 hour inyour resting place with 0 hit points, you regain 1 hit point."
+            ],
+            "prerequisite": [
+                {
+                    "level": 9
+                }
+            ]
+        },
+        {
+            "name": "Vampire's Charm",
+            "source": "DMDave",
+            "entries": [
+                "You exude intrigue, which grants you sway over humanoids.You gain the following benefits: Increase your Charisma score by 1, to a maximum of 20. You gain proficiency in one of the following skills of yourchoice: Deception, Intimidation, or Persuasion. You can cast charm person . Once you use this benefit tocast the spell, you can't do so again until you complete ashort or long rest. Charisma is your spellcasting ability forthis spell."
+            ],
+            "prerequisite": [
+                {
+                    "level": 5
+                }
+            ]
+        },
+        {
+            "name": "Vampiric Savagery",
+            "source": "DMDave",
+            "entries": [
+                "You've embraced the animalistic side of your undead nature.You gain the following benefits:You gain the shapechanger tag, which means you can beaffected by game mechanics that affect shapechangers.When you hit a creature with a claw attack, you can useyour bonus action to attempt to grapple the target.If you aren't in sunlight or running water, you can use youraction to polymorph into a Tiny bat or a Medium wolf, orback into your true form. You revert to your true form ifyou die. While in bat form, you can't speak, your walkingspeed is 5 feet, and you have a flying speed of 30 feet. Yourstatistics, other than your size and speed, are unchanged.Anything you are wearing transforms with you, butnothing you are carrying does. While in wolf form, youcan't speak, and your base walking speed is 40 feet. Yourstatistics, other than your speed, are unchanged. Once youuse this benefit, you can't use it again until you complete ashort or long rest."
+            ],
+            "prerequisite": [
+                {
+                    "level": 5
+                }
+            ]
+        },
+        {
+            "name": "Vampiric Stalker",
+            "source": "DMDave",
+            "entries": [
+                "You are a creature of the shadows. You gain the followingbenefits:The range of your darkvision increases by 60 feet.You gain proficiency in the Stealth skill. If you alreadyhave proficiency in this skill, you double your proficiencybonus when you make checks using this skill.Your climb speed is the same as your base walking speed.You can climb difficult surfaces, including upside down onceilings, without needing to make an ability check."
+            ],
+            "prerequisite": [
+                {
+                    "level": 5
+                }
+            ]
+        }
+    ]
+}
