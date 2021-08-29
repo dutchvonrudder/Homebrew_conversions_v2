@@ -1,0 +1,389 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "BMW",
+                "abbreviation": "Bookman",
+                "full": "DMDave Patreon - Bookman",
+                "authors": [
+                    "DMDave"
+                ],
+                "convertedBy": [
+                    "Dutchvonrudder"
+                ],
+                "version": "1.0.0",
+                "color": "131313",
+                "url": "https://github.com/dutchvonrudder/conversions/blob/main/Bookman.json"
+            }
+        ],
+        "dateAdded": 1629933172,
+        "dateLastModified": 1629933172
+    },
+    "subclass": [
+		{
+			"name": "Bookman",
+			"shortName": "Bookman",
+			"source": "BMW",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassSpells": [
+				"Adaption",
+				"Arcane Defense",
+				"Amphibioius",
+				"Animal Tongue",
+				"Ape Fists",
+				"Bear Strength",
+				"Berserker",
+				"Camouflage",
+				"Dark Lenses",
+				"Deep Pockets",
+				"Disguised",
+				"Far-Sighted",
+				"Flight",
+				"Hypnotic Lenses",
+				"Immune",
+				"Near-Sighted",
+				"Nourishing Threads",
+				"Polygot",
+				"Protected",
+				"Psychic Shielding",
+				"Quieted",
+				"Resistant",
+				"Revealing Lenses",
+				"Shielded",
+				"Telepathic",
+				"Tough",
+				"Water Walking"
+	
+			],
+			"subclassFeatures": [
+				"Bookman|Wizard||Bookman|BMW|2",
+                "Bookman Armor|Wizard||Bookman|BMW|2",
+                "Bookman Magic|Wizard||Bookman|BMW|2",
+                "The Green Suit|Wizard||Bookman|BMW|6",
+                "The Tan Suit|Wizard||Bookman|BMW|10",
+                "The White Suit|Wizard||Bookman|BMW|14"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Bookman",
+			"source": "BMW",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassSource": "BMW",
+			"subclassShortName": "Bookman",
+			"level": 2,
+			"entries": [
+				
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "The Bookman Suit & The Bookman Mask|Wizard||Bookman|BMW|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bookman Features|Wizard||Bookman|BMW|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Expanded Augmentation List|Wizard||Bookman|BMW|2"
+					
+				}
+			]
+		},
+		{
+			"name": "Expanded Augmentation List",
+			"source": "BMW",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Bookman",
+			"subclassSource": "BMW",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"If an augmentation has prerequisites, you must meet them to gain it. You can learn the augmentation at the same time that you meet its prerequisites. a level prerequisite refers to your level in this class.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Wizard Level",
+						"Augmentation",
+						"Function"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-6"
+					],
+					"rows": [
+						[
+							"2nd",
+							" Adaption",
+							"While wearing your Bookman mask, you can breathe normally in any environment, and you gain a +2 bonus on saving throws made against harmful gases and vapors (such as cloudkill and stinking cloud effects, inhaled poisons, and the breath weapon of some dragons)."
+						],
+						[
+							"2nd",
+							"Amphibioius",
+							"While wearing your Bookman mask, you can breathe both air and water."
+
+						],
+						[
+							"2nd",
+							"Animal Tongue",
+							"While wearing your Bookman mask, you can cast the speak to animals spell at will without expending a spell slot. You do not require spell components when you cast the spell using this augmentation."
+						],
+						[
+							"2nd",
+							"Dark Lenses",
+							"You can see in darkness and in magical darkness out to 60 ft. If you already have darkvision, the range extends to 60 ft."
+						],
+						[
+							"2nd",
+							"Far-Sighted",
+							"While you are wearing your Bookman mask, you have advantage on Wisdom (Perception) checks that rely on sight."
+						],
+						[
+							"2nd",
+							"Near-Sighted",
+							"While you are wearing your Bookman mask, you can cast charm person without expending a spell slot. Once you cast this spell using this augmentation, you can't do so again until you complete a long rest."
+						],
+						[
+							"2nd",
+							"Protected",
+							"While wearing your Bookman suit you gain a +1 bonus to your Strength, Dexterity and Constitution saving throws. And while you are wearing your Bookman mask, you gain a +1 bonus to your Intelligence, Wisdom, and Charisma saving throws."
+						],
+						[
+							"2nd",
+							"Quieted",
+							"While wearing your Bookman suit, your steps make no sound. You have advantage on Dexterity (Stealth) checks that rely on moving silently."
+						],
+						[
+							"2nd",
+							"Tough",
+							"While wearing your Bookman suit, your hit point maximum increases by 2 for each level you have in this class."
+						],
+						[
+							"6th",
+							"Ape Fists",
+							"While you are wearing your Bookman suit, your unarmed strikes deal bludgeoning damage equal to 1d4 + your Strength modifier. When you gain the 6th level in this class, your attacks are considered magical for the purpose of overcoming resistance and immunity."
+						],
+						[
+							"6th",
+							"Bear Strength",
+							"While you are wearing your Bookman suit, your Strength score is equal to your Intelligence score. In addition, your carrying capacity (including maximum load and maximum lift) is doubled and you have advantage on Strength checks made to push, pull, lift, or break objects."
+						],
+						[
+							"6th",
+							"Berserker",
+							"While you are wearing your Bookman suit, you can attack twice, instead of once, whenever you take the Attack action on your turn. Both of your attacks must be made with your unarmed strike."
+						],
+						[
+							"6th",
+							"Camoflage",
+							"While wearing your Bookman suit, Wisdom (Perception) checks made to see you are made at disadvantage."
+						],
+						[
+							"6th",
+							"Deep Pockets",
+							"The interior pocket of your Bookman suit jacket becomes an extradimensional space. If functions similar to a bag of holding."
+						],
+						[
+							"6th",
+							"Disguised",
+							"While wearing your Bookman suit, you can cast disguise self at will and you do not use a spell slot whenever you cast this spell using this augmentation. Uses are equal to your proficiency bonus and gained  back after a long rest. Half as much for short rest."
+						],
+						[
+							"6th",
+							"Nourishing Threads",
+							"While wearing your Bookman suit, you do not require food or water."
+						],
+						[
+							"6th",
+							"Resistant",
+							"Choose a damage type: acid, cold, fire, lightning, necrotic, poison, radiant, or thunder. While you are wearing your Bookman suit, you are resistant to the type of damage you chose. (Limit Two Max)"
+						],
+						[
+							"6th",
+							"Shielded",
+							"While wearing your Bookman mask, if a creature tries to target you with divination, the target must make a spellcasting check contested against your own spellcasting check. If the target succeeds, it detects you as normal. If the target fails, it can't target you with divination magic for 24 hours."
+						],
+						[
+							"6th",
+							"Telepathic",
+							"While wearing your Bookman mask, you can cast detect thoughts without using a spell slot. Once you use this augmentation to cast this spell, you can't do so again until you complete a long rest."
+						],
+						[
+							"10th",
+							"Arcane Defense",
+							"While wearing your Bookman suit, you can cast the shield spell at will without expending a spell slot. Uses are are equal  to your proficiency bonus and gained back after a long rest. Half as much for short rest."
+						],
+						[
+							"10th",
+							"Immune",
+							"While you are wearing your Bookman suit, you gain immunity to any damage type you are resistant to through the Resistant augmentation. (Limit 1 max)."
+						],
+						[
+							"10th",
+							"Polyglot",
+							"While wearing your Bookman suit, you can cast the tongues spell at will without expending a spell slot. You do not require spell components when you cast the spell using this augmentation."
+						],
+						[
+							"10th",
+							"Revealing Lenses",
+							"While wearing your Bookman mask, invisible creatures and objects are visible to you."
+						],
+						[
+							"10th",
+							"Water Walking",
+							"While wearing your Bookman suit, you can walk on water as if it were solid ground."
+						],
+						[
+							"14th",
+							" Flight",
+							"While you are wearing your Bookman suit, you gain a flying speed of 30 feet."
+						],
+						[
+							"14th",
+							"Psychic Shielding",
+							"While wearing your Bookman mask, you gain resistance to psychic damage as well as any effect that would sense your emotions or read your thoughts, divination spells, and the charmed condition."
+						]
+					]
+				}
+			]
+		},
+		{	"name": "Bookman Features",
+			"source": "BMW",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassSource": "BMW",
+			"subclassShortName": "Bookman",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Part cult, part school, part army, the Bookmen are the largest faction of spellcasters in all of Aberranterra. They are easily recognized by their trademark gas masks, tailored suits, and, of course, leatherbound books. What few words they speak are reserved for devastating incantations followed by hideous laughter. Male or female, when a protege joins the Bookmen, they must surrender their name and can only be addressed as Bookman. The only other distinction the Bookmen have are their curiously clean suits which signify their rank among other Bookmen. Black Suits are those who've just earned their masks and a position among the Bookmen. Green Suits are the learned Bookmen and war machines. Tan Suits lead the Bookmen legions. And the greatest of all Bookmen, the White Suits watch over entire Bookmen Burgs.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Wizard Level",
+						"Features",
+						"Bookman Armor",
+						"Augmentations"
+					],
+					"colStyles": [
+						"col-4 text-center",
+						"col-4"
+					],
+					"rows": [
+						[
+							"2nd",
+							"The Bookman Suit & The Bookman Mask; Bookman Armor; Bookman Magic",
+							"12 + Int",
+							"3"
+						],
+						[
+							"6th",
+							"The Green Suit",
+							"13 + Int",
+							"5"
+						],
+						[
+							"10th",
+							"The Tan Suit",
+							"14 + Int",
+							"7"
+						],
+						[
+							"14th",
+							"The White Suit",
+							"15 + Int",
+							"9"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "The Bookman Suit & The Bookman Mask",
+			"source": "BMW",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassSource": "BMW",
+			"subclassShortName": "Bookman",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"{@i 2nd-level Wizard feature}",
+				"At 2nd level, you achieve the status of Black Suit. You are given a Bookman mask and a Bookman suit, which is, of course, black. Both of these items act as catalysts for your magical abilities as described in the Bookman Magic section below and they are both bonded to you. You cannot be disarmed of either item unless you are incapacitated. If either is on the same plane of existence, you can summon your mask or suit as a bonus action on your turn, causing your mask to instantly appear in your hand and your mask to form around your body. If either is destroyed, you can perform a ritual over the course of 1 hour, which can be during a short rest. At the end of the ritual, a new mask, suit, or both appear. If a creature casts detect magic on either item, both exude strong abjuration magic."
+			]
+		},
+		{
+			"name": "Bookman Armor",
+			"source": "BMW",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassSource": "BMW",
+			"subclassShortName": "Bookman",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"{@i 2nd-level Wizard feature}",
+				"At 2nd level, while you are wearing your Bookman suit and you are not wearing any armor or wielding a shield, your AC equals 12 + your Intelligence modifier. Your base AC increases by 1 when you reach the 6th level (13 + Int), 10th level (14 + Int), and 14th level (15 + Int)."
+			]
+		},
+		{
+			"name": "Bookman Magic",
+			"source": "BMW",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassSource": "BMW",
+			"subclassShortName": "Bookman",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"{@i 2nd-level Wizard feature}",
+				"Also at 2nd level, you learn the secrets of Bookman magic, which allows you to imbue your Bookman suit and Bookman mask with magical abilities known as augmentations. You gain the Adaptation augmentation and two more augmentations of your choice, which are detailed in the Bookman Augmentations section below. You gain two additional augmentations of your choice at the 6th, 10th, and 14th level. Additionally, when you gain a level in this class, you can choose one of the augmentations you've gained and replace it with another augmentation that you could gain at that level."
+			]
+		},
+		{
+			"name": "The Green Suit",
+			"source": "BMW",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassSource": "BMW",
+			"subclassShortName": "Bookman",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Wizard feature}",
+				"At 6th level, your Bookman suit takes on a forest green hue. In addition, while you are wearing your Bookman suit, whenever you are hit by a spell attack, you can use your reaction to reduce the damage. When you do so, the damage you take from the attack is reduced by 1d6. The damage you reduce increases by 1d6 at 10th level (2d6), and again at 14th level (3d6).."
+			]
+		},
+		{
+			"name": "The Tan Suit",
+			"source": "BMW",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassSource": "BMW",
+			"subclassShortName": "Bookman",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10th-level Wizard feature}",
+				"At 10th level, your suit takes on a tan hue. While you are wearing your Bookman suit, you can cast the levitate spell at will, without expending a spell slot. You do not require spell components when you cast it in this way."
+			]
+		},
+		{
+			"name": "The White Suit",
+			"source": "BMW",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassSource": "BMW",
+			"subclassShortName": "Bookman",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14th-level Wizard feature}",
+				"At 14th level, your suit becomes stark white. While you are wearing your Bookman suit, you gain resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons."
+			]
+		}
+	]
+}
