@@ -23,7 +23,7 @@
 		{
 			"name": "Bookman",
 			"shortName": "Bookman",
-			"source": "BMW",
+			"source": "DMD",
 			"className": "Wizard",
 			"classSource": "PHB",
 			"subclassSpells": [
@@ -57,48 +57,48 @@
 	
 			],
 			"subclassFeatures": [
-				"Bookman|Wizard||Bookman|BMW|2",
-                "Bookman Armor|Wizard||Bookman|BMW|2",
-                "Bookman Magic|Wizard||Bookman|BMW|2",
-                "The Green Suit|Wizard||Bookman|BMW|6",
-                "The Tan Suit|Wizard||Bookman|BMW|10",
-                "The White Suit|Wizard||Bookman|BMW|14"
+				"Bookman|Wizard||Bookman|DMD|2",
+                "Bookman Armor|Wizard||Bookman|DMD|2",
+                "Bookman Magic|Wizard||Bookman|DMD|2",
+                "The Green Suit|Wizard||Bookman|DMD|6",
+                "The Tan Suit|Wizard||Bookman|DMD|10",
+                "The White Suit|Wizard||Bookman|DMD|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
 			"name": "Bookman",
-			"source": "BMW",
+			"source": "DMD",
 			"className": "Wizard",
 			"classSource": "PHB",
-			"subclassSource": "BMW",
+			"subclassSource": "DMD",
 			"subclassShortName": "Bookman",
 			"level": 2,
 			"entries": [
 				
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "The Bookman Suit & The Bookman Mask|Wizard||Bookman|BMW|2"
+					"subclassFeature": "The Bookman Suit & The Bookman Mask|Wizard||Bookman|DMD|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bookman Features|Wizard||Bookman|BMW|2"
+					"subclassFeature": "Bookman Features|Wizard||Bookman|DMD|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Expanded Augmentation List|Wizard||Bookman|BMW|2"
+					"subclassFeature": "Expanded Augmentation List|Wizard||Bookman|DMD|2"
 					
 				}
 			]
 		},
 		{
 			"name": "Expanded Augmentation List",
-			"source": "BMW",
+			"source": "DMD",
 			"className": "Wizard",
 			"classSource": "PHB",
 			"subclassShortName": "Bookman",
-			"subclassSource": "BMW",
+			"subclassSource": "DMD",
 			"level": 2,
 			"header": 1,
 			"entries": [
@@ -251,10 +251,10 @@
 			]
 		},
 		{	"name": "Bookman Features",
-			"source": "BMW",
+			"source": "DMD",
 			"className": "Wizard",
 			"classSource": "PHB",
-			"subclassSource": "BMW",
+			"subclassSource": "DMD",
 			"subclassShortName": "Bookman",
 			"level": 2,
 			"header": 1,
@@ -303,10 +303,10 @@
 		},
 		{
 			"name": "The Bookman Suit & The Bookman Mask",
-			"source": "BMW",
+			"source": "DMD",
 			"className": "Wizard",
 			"classSource": "PHB",
-			"subclassSource": "BMW",
+			"subclassSource": "DMD",
 			"subclassShortName": "Bookman",
 			"level": 2,
 			"header": 1,
@@ -317,10 +317,10 @@
 		},
 		{
 			"name": "Bookman Armor",
-			"source": "BMW",
+			"source": "DMD",
 			"className": "Wizard",
 			"classSource": "PHB",
-			"subclassSource": "BMW",
+			"subclassSource": "DMD",
 			"subclassShortName": "Bookman",
 			"level": 2,
 			"header": 2,
@@ -331,10 +331,10 @@
 		},
 		{
 			"name": "Bookman Magic",
-			"source": "BMW",
+			"source": "DMD",
 			"className": "Wizard",
 			"classSource": "PHB",
-			"subclassSource": "BMW",
+			"subclassSource": "DMD",
 			"subclassShortName": "Bookman",
 			"level": 2,
 			"header": 2,
@@ -345,10 +345,10 @@
 		},
 		{
 			"name": "The Green Suit",
-			"source": "BMW",
+			"source": "DMD",
 			"className": "Wizard",
 			"classSource": "PHB",
-			"subclassSource": "BMW",
+			"subclassSource": "DMD",
 			"subclassShortName": "Bookman",
 			"level": 6,
 			"header": 2,
@@ -359,10 +359,10 @@
 		},
 		{
 			"name": "The Tan Suit",
-			"source": "BMW",
+			"source": "DMD",
 			"className": "Wizard",
 			"classSource": "PHB",
-			"subclassSource": "BMW",
+			"subclassSource": "DMD",
 			"subclassShortName": "Bookman",
 			"level": 10,
 			"header": 2,
@@ -373,10 +373,10 @@
 		},
 		{
 			"name": "The White Suit",
-			"source": "BMW",
+			"source": "DMD",
 			"className": "Wizard",
 			"classSource": "PHB",
-			"subclassSource": "BMW",
+			"subclassSource": "DMD",
 			"subclassShortName": "Bookman",
 			"level": 14,
 			"header": 2,

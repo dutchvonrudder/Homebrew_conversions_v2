@@ -3,7 +3,7 @@
         "sources": [
             {
                 "json": "DMD",
-                "abbreviation": "FTG",
+                "abbreviation": "DMD",
                 "full": "DMDave - Ghost",
                 "authors": [
                     "DMDave"
@@ -23,48 +23,48 @@
 		{
 			"name": "Ghost Fighter",
 			"shortName": "Ghost",
-			"source": "FTG",
+			"source": "DMD",
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassFeatures": [
-				"Ghost|Fighter||Ghost|FTG|3",
-				"We do not know fear...|Fighter||Ghost|FTG|7",
-				"For we are fear...|Fighter||Ghost|FTG|10",
-				"And we are death.|Fighter||Ghost|FTG|15",
-				"We are ghosts.|Fighter||Ghost|FTG|18"
+				"Ghost|Fighter||Ghost|DMD|3",
+				"We do not know fear...|Fighter||Ghost|DMD|7",
+				"For we are fear...|Fighter||Ghost|DMD|10",
+				"And we are death.|Fighter||Ghost|DMD|15",
+				"We are ghosts.|Fighter||Ghost|DMD|18"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
 			"name": "Ghost",
-			"source": "FTG",
+			"source": "DMD",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassSource": "FTG",
+			"subclassSource": "DMD",
 			"subclassShortName": "Ghost",
 			"level": 3,
 			"entries": [
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Features|Fighter||Ghost|FTG|3"
+					"subclassFeature": "Features|Fighter||Ghost|DMD|3"
 					
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "We are the unseen...|Fighter||Ghost|FTG|3"
+					"subclassFeature": "We are the unseen...|Fighter||Ghost|DMD|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "We are the knife in the dark...|Fighter||Ghost|FTG|3"
+					"subclassFeature": "We are the knife in the dark...|Fighter||Ghost|DMD|3"
 				}
 			]
 		},
 		{	"name": "Features",
-			"source": "FTG",
+			"source": "DMD",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassSource": "FTG",
+			"subclassSource": "DMD",
 			"subclassShortName": "Ghost",
 			"level": 3,
 			"header": 1,
@@ -108,10 +108,10 @@
 		},
 		{
 			"name": "We are the unseen...",
-			"source": "FTG",
+			"source": "DMD",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassSource": "FTG",
+			"subclassSource": "DMD",
 			"subclassShortName": "Ghost",
 			"level": 3,
 			"header": 1,
@@ -122,10 +122,10 @@
 		},
 		{
 			"name": "We are the knife in the dark...",
-			"source": "FTG",
+			"source": "DMD",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassSource": "FTG",
+			"subclassSource": "DMD",
 			"subclassShortName": "Ghost",
 			"level": 3,
 			"header": 1,
@@ -136,10 +136,10 @@
 		},
 		{
 			"name": "We do not know fear...",
-			"source": "FTG",
+			"source": "DMD",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassSource": "FTG",
+			"subclassSource": "DMD",
 			"subclassShortName": "Ghost",
 			"level": 7,
 			"header": 2,
@@ -150,10 +150,10 @@
 		},
 		{
 			"name": "For we are fear...",
-			"source": "FTG",
+			"source": "DMD",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassSource": "FTG",
+			"subclassSource": "DMD",
 			"subclassShortName": "Ghost",
 			"level": 10,
 			"header": 2,
@@ -164,10 +164,10 @@
 		},
 		{
 			"name": "And we are death.",
-			"source": "FTG",
+			"source": "DMD",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassSource": "FTG",
+			"subclassSource": "DMD",
 			"subclassShortName": "Ghost",
 			"level": 15,
 			"header": 2,
@@ -178,10 +178,10 @@
 		},
 		{
 			"name": "We are ghosts.",
-			"source": "FTG",
+			"source": "DMD",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassSource": "FTG",
+			"subclassSource": "DMD",
 			"subclassShortName": "Ghost",
 			"level": 18,
 			"header": 2,

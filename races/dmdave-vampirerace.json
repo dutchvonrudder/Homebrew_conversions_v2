@@ -22,7 +22,7 @@
     "race": [
         {
             "name": "Vampires",
-            "source": "DNV",
+            "source": "DMD",
             "page": "DMDave",
             "ability": [
                 {
@@ -114,7 +114,7 @@
     "feat": [
         {
             "name": "Children of the Night",
-            "source": "DNV",
+            "source": "DMD",
             "entries": [
                 "You have a supernatural connection to the creatures that lurkin the dark. You gain the following benefits: Increase your Intelligence, Wisdom, or Charisma score by1, to a maximum of 20. You can cast the conjure animals spell, provided that thesun isn't up. When you cast conjure animals using this benefit, you may only conjure up to five swarms of rats, five swarms of bats, or eightwolves. Once you use thisfeature, you can't do so again until you complete a longrest. Charisma is your spellcasting ability for this spell."
             ],
@@ -127,7 +127,7 @@
         },
         {
             "name": "Improved Vampire Resilience",
-            "source": "DNV",
+            "source": "DMD",
             "entries": [
                 "You are very difficult to kill. If you fail a saving throw, you canchoose to succeed instead. Once you use this feature, you can't use it again until you complete a long rest. You can take this feat up to three times, gaining anadditional use each time you do. You regain all expendeduses after completing a long rest."
             ],
@@ -139,7 +139,7 @@
         },
         {
             "name": "Mist Form",
-            "source": "DNV",
+            "source": "DMD",
             "entries": [
                 "You can transform into a mist which protects you from harm.If you aren't in sunlight or running water, you can use youraction to polymorph into a Medium cloud of mist, or backinto your true form. While in mist form, you can't take anyactions, speak, or manipulate objects. You are weightless,have a flying speed of 20 feet, can hover, and can enter ahostile creature's space and stop there. In addition, if air canpass through a space, you can do so without squeezing, andyou can't pass through water. You have advantage onStrength, Dexterity, and Constitution saving throws, and youare immune to all nonmagical damage, except the damageyou take from sunlight. When you drop to 0 hit points outside of your resting place,you instantly transform into your mist form instead of fallingunconscious, provided that you aren't in sunlight or runningwater. If you can't transform, you are destroyed. While you have 0 hit points in mist form, you can't revert toyour vampire form, and you must reach your resting placewithin 2 hours or be destroyed. Once you are in your restingplace, you revert to vampire form. You are then paralyzeduntil you regain at least 1 hit point. After spending 1 hour inyour resting place with 0 hit points, you regain 1 hit point."
             ],
@@ -151,7 +151,7 @@
         },
         {
             "name": "Vampire's Charm",
-            "source": "DNV",
+            "source": "DMD",
             "entries": [
                 "You exude intrigue, which grants you sway over humanoids.You gain the following benefits: Increase your Charisma score by 1, to a maximum of 20. You gain proficiency in one of the following skills of yourchoice: Deception, Intimidation, or Persuasion. You can cast charm person . Once you use this benefit tocast the spell, you can't do so again until you complete ashort or long rest. Charisma is your spellcasting ability forthis spell."
             ],
@@ -163,7 +163,7 @@
         },
         {
             "name": "Vampiric Savagery",
-            "source": "DNV",
+            "source": "DMD",
             "entries": [
                 "You've embraced the animalistic side of your undead nature.You gain the following benefits:You gain the shapechanger tag, which means you can beaffected by game mechanics that affect shapechangers.When you hit a creature with a claw attack, you can useyour bonus action to attempt to grapple the target.If you aren't in sunlight or running water, you can use youraction to polymorph into a Tiny bat or a Medium wolf, orback into your true form. You revert to your true form ifyou die. While in bat form, you can't speak, your walkingspeed is 5 feet, and you have a flying speed of 30 feet. Yourstatistics, other than your size and speed, are unchanged.Anything you are wearing transforms with you, butnothing you are carrying does. While in wolf form, youcan't speak, and your base walking speed is 40 feet. Yourstatistics, other than your speed, are unchanged. Once youuse this benefit, you can't use it again until you complete ashort or long rest."
             ],
@@ -175,7 +175,7 @@
         },
         {
             "name": "Vampiric Stalker",
-            "source": "DNV",
+            "source": "DMD",
             "entries": [
                 "You are a creature of the shadows. You gain the followingbenefits:The range of your darkvision increases by 60 feet.You gain proficiency in the Stealth skill. If you alreadyhave proficiency in this skill, you double your proficiencybonus when you make checks using this skill.Your climb speed is the same as your base walking speed.You can climb difficult surfaces, including upside down onceilings, without needing to make an ability check."
             ],
